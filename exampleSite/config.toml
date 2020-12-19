@@ -120,20 +120,20 @@ name = "Blog"
 weight = 4
 [[Languages.fr.menu.main]]
 hasChildren = true
-name = "Pages"
+name = "Paginas"
 weight = 5
 [[Languages.fr.menu.main]]
 URL = "faq"
 name = "FAQ"
-parent = "Pages"
+parent = "Paginas"
 [[Languages.fr.menu.main]]
 URL = "pricing"
 name = "Tarification"
-parent = "Pages"
+parent = "Paginas"
 [[Languages.fr.menu.main]]
 URL = "service"
 name = "Un service"
-parent = "Pages"
+parent = "Paginas"
 [[Languages.fr.menu.main]]
 URL = "contact"
 name = "Contact"
