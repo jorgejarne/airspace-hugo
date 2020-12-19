@@ -4,11 +4,12 @@ banner:
   bg_image: images/slider-bg.jpg
   bg_overlay: true
   title: TU EMPRESA <br/> DE DESARROLLO WEB
-  content: We love the Web and the work we do.We work closely with our clients to
-    deliver  the best possible solutions for their needs
+  content: Nos encantan las webs y el trabajo que hacemos. Trabajamos en estrecha
+    colaboración con nuestros clientes para ofrecer las mejores soluciones posibles
+    para sus necesidades.
   button:
     enable: true
-    label: Discover Our Project
+    label: DESCUBRE NUESTROS EJEMPLOS
     link: project
 about:
   enable: true
