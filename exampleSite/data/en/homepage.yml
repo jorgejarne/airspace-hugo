@@ -1,48 +1,113 @@
----
+############################### Banner ##############################
 banner:
-  enable: true
-  bg_image: images/slider-bg.jpg
-  bg_overlay: true
-  title: TU EMPRESA <br/> DE DESARROLLO WEB
-  content: Nos encantan las webs y el trabajo que hacemos. Trabajamos en estrecha
-    colaboración con nuestros clientes para ofrecer las mejores soluciones posibles
-    para sus necesidades.
+  enable : true
+  bg_image : "images/slider-bg.jpg"
+  bg_overlay : true
+  title : "TU EMPRESA <br/> DE DESARROLLO WEB "
+  content : "Nos encantan las webs y el trabajo que hacemos. Trabajamos en estrecha colaboración con nuestros clientes para ofrecer las mejores soluciones posibles para sus necesidades."
   button:
-    enable: true
-    label: DESCUBRE NUESTROS EJEMPLOS
-    link: project
+    enable : true
+    label : "DESCUBRE NUESTROS EJEMPLOS"
+    link : "project"
+
+############################# About #################################
 about:
-  enable: true
-  title: About Us
-  description: Far far away, behind the word mountains, far from the countries Vokalia
-    and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-    right at the coast of the Semantics
-  content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-    culpa qui officia deserunt mollit anim id.
-  image: images/wrapper-img.png
+  enable : true
+  title : "Sobre nosotros"
+  #description : "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+   #           blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
+  content : "Somos un equipo multidisciplinar de 15 personas que llevamos años trabajando el desarollo de web, de software y marketing. Contamos con expertos en las últimas tecnologías para el desarrollo web 
+  como WordPress, WooCommerce, Prestashop, Magento o HTML y también tenemos otros equipos dedicados al marketing y adminsitración. Contamos con años de experiencia y nos 
+  apasiona lo que hacemos. Somos de Madrid pero el equipo trabaja actualmente en remoto sin que esto afecte en lo mas mínimo en el trabajo y en la profesionalidad."
+
+  image : "images/wrapper-img.png"
+
+
+######################### Portfolio ###############################
 portfolio:
-  enable: true
-  bg_image: images/featue-bg.jpg
-  title: WE BELIEVE IN GREAT IDEAS
-  content: " Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur
-    ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-    condimentum nibh, ut fermentum massa justo sit amet risus.\n\nMaecenas faucibus
-    mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-    Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
-    massa justo sit amet risus.\n\nMaecenas faucibus mollis interdum. Morbi leo risus,
-    porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo,
-    tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. "
+  enable : true
+  bg_image : "images/featue-bg.jpg"
+  title : "NOSOTROS CREEMOS EN LAS GRANDES IDEAS"
+  content : "
+  Una pequeña inversión, un gran beneficio. Siempre hemos creido que una página web es la mejor manera de darse a conocer al público independientemente de cuál sea su negocio o si simplemente quiere una página de marca personal propia. 
+  
+  
+  Las últimas encuestas indican que mas de 11 millones de Españoles han comprado algo por internet en los últimos 12 meses. Los tiempos cambian y su tienda necesita estar en internet. Es el mejor escaparate que puede tener. Llegará a mucha más gente y de forma más dinámica.
+
+
+  Si no tiene una idea fija de como quiere la página web, el logotipo o simplemente el tipo de letra que quieres usar, no se preocupe, nuestro equipo le ayudará a darle forma. Contamos con experiencia en muchos sectores y sabemos que es necesario para atraer al cliente.
+  "
   button:
-    enable: true
-    label: View Works
-    link: project
+    enable : true
+    label : "Ver trabajos"
+    link : "project"
+
+
+############################# Service ############################
 service:
-  enable: true
+  enable : true
+  # service content comes from "data/*/service.yml" file
+
+
+############################ call to action ###########################
 cta:
+  enable : true
+  bg_image : "images/call-to-action-bg.jpg"
+  title : "Diseñamos mágnificas experiencias digitales."
+  content : "Lea más sobre lo que hacemos y nuestra filosofía de diseño. Juzgue usted mismo el trabajo y los resultados <br> que hemos logrado para otros clientes y conozca a nuestro equipo altamente experimentado que adora diseñar."
+  button:
+    enable : true
+    label : "Cuentanos tu historia"
+    link : "contact"
+
+############################# Funfacts ###############################
+funfacts:
+  enable : false
+  title : "Fun Facts About Us"
+  description : "'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, <br> there live the
+          blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics'"
+  funfact_item:
+    # funfacts item loop
+    - icon : "ion-ios-chatboxes-outline" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Cups Of Coffee"
+      count : "99"
+      
+    # funfacts item loop
+    - icon : "ion-ios-glasses-outline" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Article Written"
+      count : "45"
+      
+    # funfacts item loop
+    - icon : "ion-ios-compose-outline" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Projects Completed"
+      count : "125"
+      
+    # funfacts item loop
+    - icon : "ion-ios-timer-outline" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Combined Projects"
+      count : "200"
+
+  testimonial_slider:
+    # testimonial item loop
+    - name : "Raymond Roy"
+      image : "images/clients/avater-1.jpg"
+      designation : "CEO-Themefisher"
+      content : "This Company created an e-commerce site with the tools to make our business a success, with innovative
+                ideas we feel that our site has unique elements that make us stand out from the crowd."
+                
+    # testimonial item loop
+    - name : "Randi Renin"
+      image : "images/clients/avater-1.jpg"
+      designation : "CEO-Themefisher"
+      content : "This Company created an e-commerce site with the tools to make our business a success, with innovative
+                ideas we feel that our site has unique elements that make us stand out from the crowd."
+                
+    # testimonial item loop
+    - name : "Rose Rio"
+      image : "images/clients/avater-3.jpg"
+      designation : "CEO-Themefisher"
+      content : "This Company created an e-commerce site with the tools to make our business a success, with innovative
+                ideas we feel that our site has unique elements that make us stand out from the crowd."
   enable: true
   bg_image: images/call-to-action-bg.jpg
   title: We design delightful digital experiences.
